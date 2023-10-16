@@ -1,0 +1,92 @@
+{
+    "creator": "Alwan (wanrabbae)",
+    "status": "success",
+    "Donate": {
+        "Gopay": "08995247131"
+    },
+    "dataSekolah": [
+        {
+            "kode_prop": "030000  ",
+            "propinsi": "Prov. Jawa Tengah",
+            "kode_kab_kota": "036000  ",
+            "kabupaten_kota": "Kota Magelang",
+            "kode_kec": "036002  ",
+            "kecamatan": "Kec. Magelang Utara",
+            "id": "95659C63-2E48-4243-A736-30CAEA3ED190",
+            "npsn": "20327606",
+            "sekolah": "SMKS ADIPURA MAGELANG",
+            "bentuk": "SMK",
+            "status": "S",
+            "alamat_jalan": "JL. URIP SUMOHARJO 89A MAGELANG",
+            "lintang": "-7.4783000",
+            "bujur": "110.2349000"
+        },
+        {
+            "kode_prop": "030000  ",
+            "propinsi": "Prov. Jawa Tengah",
+            "kode_kab_kota": "036000  ",
+            "kabupaten_kota": "Kota Magelang",
+            "kode_kec": "036002  ",
+            "kecamatan": "Kec. Magelang Utara",
+            "id": "D899C4CE-DA7C-4D92-8366-474C93C58208",
+            "npsn": "20327607",
+            "sekolah": "SMKS KRISTEN 2 MAGELANG",
+            "bentuk": "SMK",
+            "status": "S",
+            "alamat_jalan": "JL PIERRE TENDEAN NOMOR 4 MAGELANG",
+            "lintang": "-7.4825000",
+            "bujur": "110.2265000"
+        },
+        {
+            "kode_prop": "030000  ",
+            "propinsi": "Prov. Jawa Tengah",
+            "kode_kab_kota": "036000  ",
+            "kabupaten_kota": "Kota Magelang",
+            "kode_kec": "036002  ",
+            "kecamatan": "Kec. Magelang Utara",
+            "id": "160656F4-7E02-4D26-82AE-626842CFFD97",
+            "npsn": "20327586",
+            "sekolah": "SMKN 2 MAGELANG",
+            "bentuk": "SMK",
+            "status": "N",
+            "alamat_jalan": "JL. JEND. A. YANI 135 A MAGELANG",
+            "lintang": "-7.4500000",
+            "bujur": "110.2234000"
+        },
+        {
+            "kode_prop": "030000  ",
+            "propinsi": "Prov. Jawa Tengah",
+            "kode_kab_kota": "036000  ",
+            "kabupaten_kota": "Kota Magelang",
+            "kode_kec": "036002  ",
+            "kecamatan": "Kec. Magelang Utara",
+            "id": "29B66981-986C-45AC-B852-71C46327C1F6",
+            "npsn": "20331982",
+            "sekolah": "SMKS PENDOWO",
+            "bentuk": "SMK",
+            "status": "S",
+            "alamat_jalan": "JALAN PERINTIS KEMERDEKAAN NOMOR 92 MAGELANG",
+            "lintang": "-7.4709000",
+            "bujur": "110.2365000"
+        },
+        {
+            "kode_prop": "030000  ",
+            "propinsi": "Prov. Jawa Tengah",
+            "kode_kab_kota": "036000  ",
+            "kabupaten_kota": "Kota Magelang",
+            "kode_kec": "036003  ",
+            "kecamatan": "Kec. Magelang Tengah",
+            "id": "D25F0583-F5C6-4CF9-B2AD-917FF0482761",
+            "npsn": "20327584",
+            "sekolah": "SMKS KRISTEN 1 MAGELANG",
+            "bentuk": "SMK",
+            "status": "S",
+            "alamat_jalan": "JLN. P. DIPONEGORO NO.10 MAGELANG",
+            "lintang": "-7.4887000",
+            "bujur": "110.2250000"
+        }
+    ],
+    "total_data": 20,
+    "page": 1,
+    "per_page": 5
+}

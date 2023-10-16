@@ -1,0 +1,7 @@
+{
+    "name": "skanida/lelang",
+    "require": {},
+    "scripts": {
+        "server" : "php -S localhost:8080"
+    }
+}
