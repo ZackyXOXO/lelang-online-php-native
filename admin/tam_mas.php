@@ -15,6 +15,7 @@
             <th>Nama</th>
             <th>Username</th>
             <th>Telp.</th>
+            <th>User Agent</th>
           </tr>
         </thead>
 
@@ -30,6 +31,7 @@
             <td><?=$data['nama']?></td>
             <td><?=$data['username']?></td>
             <td><?=$data['tlp']?></td>
+            <td><?=$data['ua']?></td>
           </tr>
           <?php
           }
