@@ -19,13 +19,13 @@
     <label for="exampleTextarea1">Deskripsi</label>
     <textarea class="form-control" id="exampleTextarea1" rows="4" name="deskripsi" required></textarea>
   </div>
-  <div class="form-group">
+  <div class="form-group text-white">
     <label>Foto</label>
-    <input type="file" name="foto" class="file-upload-default">
+    <input type="file" name="foto" class="file-upload-default text-white">
     <div class="input-group col-xs-12">
-      <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Foto" required>
+      <input type="text" class="form-control file-upload-info text-white" disabled placeholder="Upload Foto" required>
       <span class="input-group-append">
-        <button class="file-upload-browse btn btn-primary" type="button">Upload</button>
+        <button class="file-upload-browse btn btn-primary text-white" type="button">Upload</button>
       </span>
     </div>
   </div>

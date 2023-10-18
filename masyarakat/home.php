@@ -12,7 +12,7 @@
   <div class="card">
     <div class="card-body">
       <h4 class="card-title text-white">Proses Lelang</h4>
-      <table class="table">
+      <table class="table text-white">
         <thead>
           <tr>
             <th>No.</th>
@@ -85,8 +85,8 @@
         <!-- end tawar menawar -->
       </div>
       <!-- tampil siapa aja yang nawar -->
-      <h1 class="text-dark mb-2">Penawaran</h1>
-      <table class="table">
+      <h1 class="text-white mb-2">Penawaran</h1>
+      <table class="table text-white">
         <thead>
           <tr>
             <th>No</th>
@@ -122,8 +122,8 @@
 <div class=" grid-margin stretch-card">
   <div class="card">
     <div class="card-body">
-    <h4 class="card-title">Hasil Lelang</h4>
-      <table class="table">
+    <h4 class="card-title text-white">Hasil Lelang</h4>
+      <table class="table text-white">
         <thead>
           <tr>
             <th>No</th>
@@ -157,7 +157,7 @@
 </div>
 <?php
     } else {
-      echo "<h1 class='text-dark mb-3'>Penawaran tidak dibuka!</h1>";
+      echo "<h1 class='text-white mb-3'>Penawaran tidak dibuka! :(</h1>";
   }
 }
 ?>
@@ -184,7 +184,7 @@
         <tbody>
         <?php 
           include "../koneksi.php";
-          $qry_barang=mysqli_query($conn,"select * from barang");
+          $qry_barang=mysqli_query($conn,"SELECT * FROM `barang`");
           $no=0;
           while($data=mysqli_fetch_array($qry_barang)) {
           $no++; ?>

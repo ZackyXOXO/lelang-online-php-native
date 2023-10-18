@@ -1,10 +1,10 @@
 <?php include "navbar.php" ?>
 
-<h2 class="text-dark">Tawaran</h2>
-<h3 class="text-dark">Barang : <span class="text-secondary"><?=$_GET['nama_brg']?></span></h3>
+<h2 class="text-white">Tawaran</h2>
+<h3 class="text-white">Barang : <span class="text-white"><?=$_GET['nama_brg']?></span></h3>
 <img class="mb-2" width="200px" src="../foto_barang/<?=$_GET['foto_brg']?>" alt="Foto Barang">
 
-<table class="table">
+<table class="table text-white" id="pdf-content">
   <thead>
     <tr>
       <th>No.</th>
@@ -44,7 +44,7 @@
           <input type="hidden" name="id" value="<?=$data['id_lelang']?>">
           <input type="hidden" name="id_brg" value="<?=$data['id_barang']?>">
           <button type="submit" name="win" class="btn btn-outline-success<?=$winner?>">WINNER</button>
-        </form>       
+        </form>
       </td>
     </tr> 
     <?php
@@ -67,5 +67,16 @@
       }
     ?>
 </table>
+<button  class="btn btn-danger" onclick="cetakPDF()">Cetak Laporan</button>       
+
+<script>
+  function cetakPDF (){
+    var printContent = document.getElementById("pdf-content").innerHTML;
+    var originalContent = document.body.innerHTML;
+    document.body.innerHTML = printContent;
+    window.print();
+    document.body.innerHTML = originalContent;
+  }
+</script>
 
 <?php include "footer.php" ?>

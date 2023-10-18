@@ -1,14 +1,14 @@
 <?php include "navbar.php" ?>
 
 <div class="page-header">
-  <h3 class="page-title">Data Petugas</h3>
+  <h3 class="page-title text-white">Data Petugas</h3>
 </div>
 
 <div class=" grid-margin stretch-card">
   <div class="card">
     <div class="card-body">
-      <h4 class="card-title">Daftar Petugas</h4>
-      <table class="table table-hover">
+      <h4 class="card-title text-white">Daftar Petugas</h4>
+      <table class="table table-hover text-white">
         <thead>
           <tr>
             <th>No.</th>
