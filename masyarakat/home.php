@@ -74,11 +74,11 @@
                 echo "<meta http-equiv='Refresh' content='1; URL=./home.php?id_lelang=$_GET[id_lelang]&status_lelang=$_GET[status_lelang]'>";
               } else {
                 $num = number_format($data2['tertinggi']);
-                echo "<h3 class='text-dark mt-2'>Tidak boleh dibawah penawaran tertinggi Rp.$num</h3>";
+                echo "<h3 class='text-white mt-2'>Tidak boleh dibawah penawaran tertinggi Rp.$num</h3>";
               }  
             } else {
               $num = number_format($data['harga_awal']);
-              echo "<h3 class='text-dark mt-2'>Tidak boleh dibawah harga awal Rp.$num</h3>";
+              echo "<h3 class='text-white mt-2'>Tidak boleh dibawah harga awal Rp.$num</h3>";
             }
           }  
         ?>

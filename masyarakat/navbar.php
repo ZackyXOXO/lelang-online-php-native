@@ -26,7 +26,7 @@ session_start();
     <!-- Layout styles -->
     <link rel="stylesheet" href="../assets/css/style.css">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="../assets/images/favicon.png" />
+    <!-- <link rel="shortcut icon" href="../assets/images/favicon.png" /> -->
   </head>
   <body>
     <div class="container-scroller">
@@ -43,7 +43,7 @@ session_start();
           <div class="search-field d-none d-xl-block">
           
           </div>
-          <ul class="navbar-nav navbar-nav-right">            
+          <!-- <ul class="navbar-nav navbar-nav-right">            
             <li class="nav-item nav-language dropdown d-none d-md-block">
               <a class="nav-link dropdown-toggle" id="languageDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                 <div class="nav-language-icon">
@@ -104,7 +104,7 @@ session_start();
             </li>
             
             
-          </ul>
+          </ul> -->
           <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
             <span class="mdi mdi-menu"></span>
           </button>
@@ -119,14 +119,14 @@ session_start();
 
             <li class="nav-item ">
               <a class="nav-link mb-2" href="home.php">
-                <span class="icon-bg"><i class="mdi mdi-scale-balance menu-icon"></i></span>
+                <!-- <span class="icon-bg"><i class="mdi mdi-scale-balance menu-icon"></i></span> -->
                 <span class="menu-title">Lelang</span>
               </a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="sekolah.php">
-                <span class="icon-bg"><i class="mdi mdi-human-male-female menu-icon"></i></span>
+                <!-- <span class="icon-bg"><i class="mdi mdi-human-male-female menu-icon"></i></span> -->
                 <span class="menu-title">Daftar Sekolah</span>
               </a>
             </li>
@@ -137,7 +137,7 @@ session_start();
                   <div>
                     <div class="d-flex align-items-center">
                       <div class="sidebar-profile-img">
-                        <img src="../assets/images/faces-clipart/pic-1.png" alt="image">
+                        <!-- <img src="../assets/images/faces-clipart/pic-1.png" alt="image"> -->
                       </div>
                       <div class="sidebar-profile-text">
                         <p class="mb-1"><?=$_SESSION['nama']?></p>
@@ -148,13 +148,13 @@ session_start();
               </div>
             </li>
 
-            <li class="nav-item sidebar-user-actions">
+            <!-- <li class="nav-item sidebar-user-actions">
               <div class="sidebar-user-menu">
                 <a href="#" class="nav-link"><i class="mdi mdi-settings menu-icon"></i>
                   <span class="menu-title">Pengaturan</span>
                 </a>
               </div>
-            </li>
+            </li> -->
 
             <li class="nav-item sidebar-user-actions">
               <div class="sidebar-user-menu">

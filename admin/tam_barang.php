@@ -3,12 +3,13 @@
 <div class="page-header">
   <h3 class="page-title text-white">Data Barang</h3>
 </div>
+<button  class="btn btn-danger" onclick="cetakPDF()">Cetak Laporan</button>       
 
 <div class=" grid-margin stretch-card">
   <div class="card">
-    <div class="card-body">
-      <h4 class="card-title text-white">Daftar Barang</h4>
-      <table class="table text-white">
+    <div class="card-body" id="pdf-content">
+      <h4 class="card-title text-white" >Daftar Barang</h4>
+      <table class="table text-white" >
         <thead>
           <tr>
             <th>No.</th>
@@ -49,8 +50,19 @@
           ?>
         </tbody>
       </table>
+      
     </div>
   </div>
 </div>
+
+<script>
+  function cetakPDF (){
+    var printContent = document.getElementById("pdf-content").innerHTML;
+    var originalContent = document.body.innerHTML;
+    document.body.innerHTML = printContent;
+    window.print();
+    document.body.innerHTML = originalContent;
+  }
+</script>
 
 <?php include "footer.php"; ?>

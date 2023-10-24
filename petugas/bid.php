@@ -4,7 +4,8 @@
 <h3 class="text-white">Barang : <span class="text-white"><?=$_GET['nama_brg']?></span></h3>
 <img class="mb-2" width="200px" src="../foto_barang/<?=$_GET['foto_brg']?>" alt="Foto Barang">
 
-<table class="table text-white" id="pdf-content">
+
+<table border="1" class="table text-white" id="pdf-content">
   <thead>
     <tr>
       <th>No.</th>
@@ -13,16 +14,18 @@
       <th>Pemenang</th>
     </tr>
   </thead>
-
+  
   <tbody>
+    
+    
     <?php
       include "../koneksi.php";
       $sql="SELECT *,lelang.id AS id_lelang FROM lelang, masyarakat where id_barang = $_GET[id_brg] AND id_masyarakat = masyarakat.id ORDER BY penawaran_harga DESC";
       $query=mysqli_query($conn, $sql);
       $no=0;
       while($data=mysqli_fetch_array($query)) {
-      $no++;
-    ?>
+        $no++;
+        ?>
     <tr>
       <td><?=$no?>.</td>
       <td><?=$data['nama']?></td>
@@ -33,17 +36,20 @@
         $query3 = mysqli_query($conn, $sql3);
         $data3=mysqli_fetch_array($query3);
         if($data3['status']=='SOLD') {
-          if($data['status'] == 'WINNER') $winner = " active";
-          else $winner = " disabled";
-        } else {
-          if($data['status'] == 'WINNER') $winner = " active";
-          else $winner = "";
+          if($data['status'] == 'WINNER') $winner = "active";
+          else 
+          $winner = " disabled";
+        $color = "text-white";
+      } else {
+        if($data['status'] == 'WINNER') $winner = "active";
+        else $winner = "";
+          $color = "text-white";
         }        
         ?>
         <form action="" method="post">
           <input type="hidden" name="id" value="<?=$data['id_lelang']?>">
           <input type="hidden" name="id_brg" value="<?=$data['id_barang']?>">
-          <button type="submit" name="win" class="btn btn-outline-success<?=$winner?>">WINNER</button>
+          <button type="submit" name="win" class="btn btn-outline-success<?=$winner?> <?=$color?>">WINNER</button>
         </form>
       </td>
     </tr> 

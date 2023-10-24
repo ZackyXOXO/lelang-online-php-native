@@ -24,9 +24,9 @@ session_start();
     <!-- inject:css -->
     <!-- endinject -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css"> 
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="../assets/images/favicon.png" />
+    <!-- <link rel="shortcut icon" href="../assets/images/favicon.png" /> -->
   </head>
   <body>
     <div class="container-scroller">
@@ -50,7 +50,7 @@ session_start();
               </div>
             </form>
           </div> -->
-          <ul class="navbar-nav navbar-nav-right">            
+          <!-- <ul class="navbar-nav navbar-nav-right">            
             <li class="nav-item nav-language dropdown d-none d-md-block">
               <a class="nav-link dropdown-toggle" id="languageDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                 <div class="nav-language-icon">
@@ -111,7 +111,7 @@ session_start();
             </li>
             
             
-          </ul>
+          </ul> -->
           <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
             <span class="mdi mdi-menu"></span>
           </button>
@@ -125,35 +125,35 @@ session_start();
             <!-- <li class="nav-item nav-category">Main</li> -->
             <li class="nav-item">
               <a class="nav-link" href="home.php">
-                <span class="icon-bg"><i class="mdi mdi-scale-balance menu-icon"></i></span>
+                <!-- <span class="icon-bg"><i class="mdi mdi-scale-balance menu-icon"></i></span> -->
                 <span class="menu-title">Lelang</span>
               </a>
             </li>
             
             <li class="nav-item">
               <a class="nav-link" href="tam_barang.php">
-                <span class="icon-bg"><i class="mdi mdi-package menu-icon"></i></span>
+                <!-- <span class="icon-bg"><i class="mdi mdi-package menu-icon"></i></span> -->
                 <span class="menu-title">Barang</span>
               </a>
             </li>
 
             <li class="nav-item">
               <a class="nav-link" href="tam_mas.php">
-                <span class="icon-bg"><i class="mdi mdi-human-male-female menu-icon"></i></span>
+                <!-- <span class="icon-bg"><i class="mdi mdi-human-male-female menu-icon"></i></span> -->
                 <span class="menu-title">Masyarakat</span>
               </a>
             </li>
 
             <li class="nav-item">
               <a class="nav-link" href="tam_pet.php">
-                <span class="icon-bg"><i class="mdi mdi-security menu-icon"></i></span>
+                <!-- <span class="icon-bg"><i class="mdi mdi-security menu-icon"></i></span> -->
                 <span class="menu-title">Petugas</span>
               </a>
             </li>
 
             <li class="nav-item mb-3">
               <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-                <span class="icon-bg"><i class="mdi mdi-plus-circle-outline menu-icon"></i></span>
+                <!-- <span class="icon-bg"><i class="mdi mdi-plus-circle-outline menu-icon"></i></span> -->
                 <span class="menu-title">Lainnya</span>
                 <i class="menu-arrow"></i>
               </a>
@@ -170,7 +170,7 @@ session_start();
                   <div>
                     <div class="d-flex align-items-center">
                       <div class="sidebar-profile-img">
-                        <img src="../assets/images/faces-clipart/pic-1.png" alt="image">
+                        <!-- <img src="../assets/images/faces-clipart/pic-1.png" alt="image"> -->
                       </div>
                       <div class="sidebar-profile-text">
                         <p class="mb-1"><?=$_SESSION['nama']?></p>
@@ -181,13 +181,13 @@ session_start();
               </div>
             </li>
 
-            <li class="nav-item sidebar-user-actions">
+            <!-- <li class="nav-item sidebar-user-actions">
               <div class="sidebar-user-menu">
                 <a href="profil.php" class="nav-link"><i class="mdi mdi-face-profile menu-icon"></i>
                   <span class="menu-title">Profil</span>
                 </a>
               </div>
-            </li>
+            </li> -->
 
             <li class="nav-item sidebar-user-actions">
               <div class="sidebar-user-menu">
